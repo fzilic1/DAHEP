@@ -1,0 +1,12 @@
+
+*.root
+
+*.exe 
+
+*.o 
+
+__pycache__/ 
+
+*.pyc
+
+*.pyo
