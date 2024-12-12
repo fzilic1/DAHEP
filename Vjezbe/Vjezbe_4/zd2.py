@@ -13,9 +13,9 @@ y_data3=[]
 i=0
 while i<len(x_data):
     y_data.append((1/tau)*np.exp(-x_data[i]/tau))
-    y_data1.append(np.exp(-x_data[i]/tau))
-    y_data2.append((1/3)*np.exp(-x_data[i]/tau))
-    y_data3.append((1/1.5)*np.exp(-x_data[i]/tau))
+    y_data1.append(np.exp(-x_data[i]))
+    y_data2.append((1/3)*np.exp(-x_data[i]/3))
+    y_data3.append((1/1.5)*np.exp(-x_data[i]/1.5))
     i+=1
 
 plt.plot(x_data, y_data1, label="Tau=1")
