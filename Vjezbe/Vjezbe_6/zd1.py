@@ -42,6 +42,6 @@ while N<10000:
 
 sigma=np.sqrt(sigma2)
 x = np.linspace(mean - 3*sigma, mean + 3*sigma, 100)
-plt.hist(x_tot, bins=50, edgecolor='black', density=True) #normalizirat
+plt.hist(x_tot, bins=50, edgecolor='black', density=True)
 plt.plot(x, stats.norm.pdf(x, mean, sigma))
 plt.savefig("zd1.jpg")
