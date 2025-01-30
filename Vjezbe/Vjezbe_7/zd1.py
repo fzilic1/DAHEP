@@ -38,7 +38,7 @@ print(p)
 print(z_score)
 
 plt.axvline(x=m, color='red', label='mjerenja')
-plt.hist(H0_data, bins=50, edgecolor='black', label='Francuska')
+plt.hist(H0_data, bins=50, edgecolor='black', label='Francuska', density='True')
 plt.legend(loc=1)
 plt.xlabel('visina [cm]')
 plt.savefig("zd1.jpg")
